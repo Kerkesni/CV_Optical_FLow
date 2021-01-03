@@ -2,8 +2,8 @@
 This Project contains implementations of optical flow algorithms.
 
 ## Variations Implemented
-1. Dense Optical Flow (two visualization techniques)
-2. Luca-Kanade Sparce Optical flow
+1. Dense Optical Flow (Farnebäck - Gunnar method)
+2. Lucas-Kanade Sparce Optical flow
 
 ## Requirements to run
 - [Python](https://www.python.org/downloads/)
@@ -21,3 +21,7 @@ This Project contains implementations of optical flow algorithms.
 
 ### Lucas-Kanade Sparce Optical Flow
 ![Sparce](results/sparce.gif)
+
+## References
+- Lucas, Bruce D., and Takeo Kanade. "An iterative image registration technique with an application to stereo vision." (1981): 674.
+- Farnebäck, Gunnar. "Two-frame motion estimation based on polynomial expansion." Scandinavian conference on Image analysis. Springer, Berlin, Heidelberg, 2003.
